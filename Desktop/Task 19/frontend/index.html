@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio | Project Showcase</title>
+    <meta name="description" content="A premium showcase of modern web, mobile, and AI development projects.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Boxicons for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="#" class="logo">Portfo<span>lio.</span></a>
+            <button class="theme-toggle" id="theme-toggle">
+                <i class='bx bx-moon'></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero container">
+        <div class="hero-text text-center">
+            <h1>Featured <span class="gradient-text">Projects</span></h1>
+            <p>Explore my latest work across Web, Mobile, AI, and more. Built with modern technologies.</p>
+        </div>
+        
+        <!-- Controls: Search & Filter -->
+        <div class="controls">
+            <div class="search-bar">
+                <i class='bx bx-search'></i>
+                <input type="text" id="search-input" placeholder="Search projects by title, tech...">
+            </div>
+            
+            <div class="filters" id="category-filters">
+                <button class="filter-btn active" data-filter="All">All</button>
+                <button class="filter-btn" data-filter="Web">Web</button>
+                <button class="filter-btn" data-filter="Mobile">Mobile</button>
+                <button class="filter-btn" data-filter="AI">AI</button>
+                <button class="filter-btn" data-filter="Python">Python</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid Section -->
+    <main class="container">
+        <!-- Skeleton Loading State (hidden by default in JS, shown while fetching) -->
+        <div class="grid projects-grid" id="projects-container">
+            <!-- Project Cards will be dynamically injected here by JS -->
+        </div>
+        
+        <!-- Empty State Message -->
+        <div id="empty-state" class="empty-state hidden">
+            <i class='bx bx-folder-open'></i>
+            <h3>No projects found</h3>
+            <p>Try adjusting your search or category filter.</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer container text-center">
+        <p>&copy; 2026 Developer Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-overlay"></div>
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightbox-close"><i class='bx bx-x'></i></button>
+            <img src="" alt="Project Preview" id="lightbox-img">
+            <div class="lightbox-details">
+                <h3 id="lightbox-title">Project Title</h3>
+                <p id="lightbox-desc">Project description goes here.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JS -->
+    <script src="./js/main.js"></script>
+</body>
+</html>

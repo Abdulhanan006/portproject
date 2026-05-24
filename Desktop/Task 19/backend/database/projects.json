@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Crypto Dashboard Web App",
+    "description": "A fully responsive cryptocurrency dashboard showing real-time market data.",
+    "image_url": "https://images.unsplash.com/photo-1621504450181-5d356f61d307?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "live_demo_link": "https://example.com/demo1",
+    "github_link": "https://github.com/example/crypto-dashboard",
+    "category": "Web",
+    "technologies": ["React", "Node.js", "Tailwind CSS", "Chart.js"]
+  },
+  {
+    "id": 2,
+    "title": "FitTrack Mobile App",
+    "description": "A sleek mobile application for tracking fitness goals and daily workouts.",
+    "image_url": "https://images.unsplash.com/photo-1526506190296-1e5e2bc0e85a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "live_demo_link": "https://example.com/demo2",
+    "github_link": "https://github.com/example/fittrack",
+    "category": "Mobile",
+    "technologies": ["React Native", "Firebase", "Redux"]
+  },
+  {
+    "id": 3,
+    "title": "AI Image Generator",
+    "description": "An AI-powered web tool that generates stunning images from text prompts.",
+    "image_url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "live_demo_link": "https://example.com/demo3",
+    "github_link": "https://github.com/example/ai-image-gen",
+    "category": "AI",
+    "technologies": ["Python", "Flask", "OpenAI API", "Vanilla JS"]
+  },
+  {
+    "id": 4,
+    "title": "E-commerce Platform",
+    "description": "A comprehensive full-stack e-commerce solution with payment integration.",
+    "image_url": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "live_demo_link": "https://example.com/demo4",
+    "github_link": "https://github.com/example/ecommerce",
+    "category": "Web",
+    "technologies": ["Next.js", "MongoDB", "Stripe", "Express"]
+  },
+  {
+    "id": 5,
+    "title": "Data Scraper Script",
+    "description": "A robust Python script for scraping and analyzing large datasets from the web.",
+    "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "live_demo_link": "https://example.com/demo5",
+    "github_link": "https://github.com/example/scraper",
+    "category": "Python",
+    "technologies": ["Python", "BeautifulSoup", "Pandas", "Selenium"]
+  },
+  {
+    "id": 6,
+    "title": "Smart Home IoT Interface",
+    "description": "A clean UI for controlling smart home devices across multiple rooms.",
+    "image_url": "https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "live_demo_link": "https://example.com/demo6",
+    "github_link": "https://github.com/example/smarthome",
+    "category": "Web",
+    "technologies": ["Vue.js", "MQTT", "Node.js"]
+  }
+]
